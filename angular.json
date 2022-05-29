@@ -1,0 +1,8 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "command-training": "apps/command-training",
+    "command-training-e2e": "apps/command-training-e2e"
+  }
+}
