@@ -1,8 +1,1 @@
-{
-  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
-  "version": 2,
-  "projects": {
-    "command-training": "apps/command-training",
-    "command-training-e2e": "apps/command-training-e2e"
-  }
-}
+{"$schema":"./node_modules/nx/schemas/workspace-schema.json","version":2,"projects":{"command-training":"apps/command-training","command-training-e2e":"apps/command-training-e2e","products":{"projectType":"library","root":"libs/products","sourceRoot":"libs/products/src","prefix":"lib","architect":{"test":{"builder":"@nrwl/jest:jest","outputs":["coverage/products"],"options":{"jestConfig":"libs/products/jest.config.js","passWithNoTests":true}}}}}}
