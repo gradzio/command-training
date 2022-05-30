@@ -5,7 +5,6 @@ import { of } from 'rxjs';
 import { AddProductFormComponentModule } from './add-product-form.component-module';
 import { ADDS_PRODUCT_DTO } from '../../../application/ports/secondary/dto/adds-product.dto-port';
 import { AddProductFormComponentHarness } from './add-product-form.component-harness';
-import { CreateProductCommand } from '../../../application/ports/primary/command/create-product.command';
 
 describe('AddProductFormComponent', () => {
   const given = async (data: Partial<{}>) => {

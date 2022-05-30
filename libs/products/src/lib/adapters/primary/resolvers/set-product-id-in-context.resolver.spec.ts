@@ -1,16 +1,11 @@
 import { TestBed } from '@angular/core/testing';
 import {
-  ActivatedRoute,
   ActivatedRouteSnapshot,
   Params,
   RouterStateSnapshot,
 } from '@angular/router';
 import { of } from 'rxjs';
-import { SetContextWithAllProductsCommand } from '../../../application/ports/primary/command/set-context-with-all-products.command';
-import { SetContextWithProductIdCommand } from '../../../application/ports/primary/command/set-context-with-product-id.command';
 import { SETS_PRODUCT_ID_CONTEXT } from '../../../application/ports/secondary/context/sets-product-id.context-port';
-import { GETS_ALL_PRODUCT_DTO } from '../../../application/ports/secondary/dto/gets-all-product.dto-port';
-import { ProductDTO } from '../../../application/ports/secondary/dto/product.dto';
 import { SetProductIdInContextResolver } from './set-product-id-in-context.resolver';
 import { SetProductIdInContextResolverModule } from './set-product-id-in-context.resolver-module';
 
